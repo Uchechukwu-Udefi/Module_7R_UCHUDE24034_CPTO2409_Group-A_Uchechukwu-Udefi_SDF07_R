@@ -55,3 +55,18 @@ Once you've completed and tested your app:
 
 1. **Generate a Public Link:** If you've pushed your project to GitHub, your repository URL is what you'll need.
 2. **Submit the link:** to your completed app via the Learning Management System (LMS) [**[Projects](https://learn.codespace.co.za/projects)**] tab.
+
+
+## #############################################################################################################
+
+## How I Build My Portfolio MVP
+
+I forked the soruce repository as described and using VS Code, I code along with Scrimba.
+
+In HTML file, codes are written in sections for easy reading and understanding, and also styled in the same format.
+1. Head
+2. Introduction
+3. My services
+4. About me
+5. My work
+6. Footer
