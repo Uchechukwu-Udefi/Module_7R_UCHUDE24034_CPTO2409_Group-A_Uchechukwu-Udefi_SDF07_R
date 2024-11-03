@@ -187,6 +187,10 @@ header {
     z-index: 1000;
 }
 
+.nav-open {
+    background: #16e0bd;
+}
+
 .hamburger {
     background: var(--clr-dark);
     width: 2em;
