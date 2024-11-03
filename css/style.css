@@ -187,15 +187,32 @@ header {
     z-index: 1000;
 }
 
-.nav-open {
-    background: #16e0bd;
+.nav-open .nav {
+    transform: translateX(0);
+}
+
+.nav-open .nav-toggle {
+    position: fixed;
+}
+
+.nav-open .hamburger {
+    transform: rotate(.625turn);
+}
+
+.nav-open.hamburger::before {
+    transform: rotate(90deg) translateX(-6px);
+}
+.nav-open.hamburger::after {
+    opacity: 0;
 }
 
 .hamburger {
+    /*
     background: var(--clr-dark);
     width: 2em;
     height: 3px;
     border-radius: 1em;
+    */
     display: block;
     position: relative;
 }
